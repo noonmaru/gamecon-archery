@@ -1,0 +1,10 @@
+name: Archery
+version: @version@
+main: com.github.noonmaru.archery.ArcheryPlugin
+depend: [Tap, CustomEntity]
+authors: [Noonmaru]
+website: https://github.com/noonmaru/archery
+commands:
+  archery:
+    permission: archery.commands
+    usage: /<command> start, stop

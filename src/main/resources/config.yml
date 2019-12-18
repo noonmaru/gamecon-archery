@@ -1,0 +1,45 @@
+shoot-count: 3
+gravity: 1.0
+max-wind-speed: 10.0
+max-arrow-speed: 60.0
+max-arrow-flying-tick: 100
+arrow-items:
+  - diamond_sword
+  - golden_sword
+  - iron_sword
+  - stone_sword
+  - wooden_sword
+  - stick
+archer-loc:
+  world: world
+  x: 97.5
+  y: 73
+  z: 540.5
+  yaw: 180
+  pitch: 0
+spectator-loc:
+  world: world
+  x: 89.285
+  y: 73.9
+  z: 542.140
+  yaw: -135.7
+  pitch: 16.5
+indicator-pos:
+  x: 97.5
+  y: 67.5
+  z: 529.5
+wind-change-tick: 10000
+round-count: 2
+teams:
+  RED:
+    prefix: '&c'
+    entries:
+      - heptagram
+      - ehdgh141
+      - sleepground
+  BLUE:
+    prefix: '&b'
+    entries:
+      - 9oo9oo
+      - 8ee8ee
+      - 7ee7ee
