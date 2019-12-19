@@ -81,6 +81,7 @@ public class Wind
     public void destroy()
     {
         Packet.ENTITY.destroy(indi.getId()).sendAll();
+        CustomEntityPacket.unregister(indi.getId()).sendAll();
     }
 
 
